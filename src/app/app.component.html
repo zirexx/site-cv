@@ -1,0 +1,87 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div class="wrapper" [class.wrapper--dark]="isDark">
+  <div class="slider-wrapper">
+    <mat-slide-toggle (change)="isDark = !isDark" class="slider">
+      {{isDark? 'Light' : 'Dark'}} theme
+    </mat-slide-toggle>
+
+  </div>
+  <h1>
+    Sergei Safronov
+  </h1>
+
+  <h2>DevOps Engineer</h2>
+  <ul>
+    <li>
+      Full Atlassian stack: Jira, Confluence, Bitbucket, Bamboo
+    </li>
+    <li>
+      Gitlab
+    </li>
+    <li>
+      Ansible
+    </li>
+    <li>
+      Docker
+    </li>
+    <li>
+      Vmware
+    </li>
+  </ul>
+
+  <section class="experience pt-100 pb-100" id="experience">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-8 mx-auto text-center">
+          <div class="section-title">
+            <h4>My Career</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xl-12">
+          <ul class="timeline-list">
+            <!-- Single Experience -->
+            <li>
+              <div class="timeline_content">
+                <span>2011 — 2015</span>
+                <h4>Student Bachelor</h4>
+                <p>National Research University of Electronic Technology (MIET)
+                  Automation and Control Systems</p>
+              </div>
+            </li>
+            <!-- Single Experience -->
+            <li>
+              <div class="timeline_content">
+                <span>2015 — 2017</span>
+                <h4>Student Master</h4>
+                <p>National Research University of Electronic Technology (MIET)
+                  Automation and Control Systems
+                </p>
+              </div>
+            </li>
+            <!-- Single Experience -->
+            <li>
+              <div class="timeline_content">
+                <span>2014 — 2018</span>
+                <h4>Software Engineer</h4>
+                <p>All-Russian Scientific Research Institute for Physical-Engineering and Radiotechnical Metrology</p>
+              </div>
+            </li>
+            <!-- Single Experience -->
+            <li>
+              <div class="timeline_content">
+                <span>2018 — Current time</span>
+                <h4>DevOps Engineer</h4>
+                <p>
+                  ELVEES Research and Development Center, JSC
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
