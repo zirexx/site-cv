@@ -1,10 +1,18 @@
 <!--The content below is only a placeholder and can be replaced.-->
 <div class="wrapper" [class.wrapper--dark]="isDark">
-  <div class="slider-wrapper">
-    <mat-slide-toggle (change)="isDark = !isDark" class="slider">
-      {{isDark? 'Light' : 'Dark'}} theme
-    </mat-slide-toggle>
-  </div>
+  
+  <section class="navigation">
+      
+    <div class="buttons">
+      <button mat-button>GET CV</button>
+      <button mat-button>CONTACTS</button>
+      <div class="slider-wrapper">
+          <mat-slide-toggle (change)="isDark = !isDark" class="slider">
+            {{isDark? 'Light' : 'Dark'}} theme
+          </mat-slide-toggle>
+        </div>
+    </div>
+  </section>
 
   <section class="home_banner_area">
     <div class="banner_inner">
